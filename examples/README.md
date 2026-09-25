@@ -1,25 +1,21 @@
 # Public Demo Lab
 
-Planned reproducible examples for the Codex Ambassador portfolio.
+Each demonstration is public, synthetic, dependency-light, and designed to be reproduced on a local workstation.
 
-## Demo 01 — Secure bug fix
+## Available
 
-Give Codex a deliberately vulnerable sample application, ask it to investigate a bounded issue, propose a patch, add regression tests, and explain the security impact.
+### Demo 01 — Secure file access
 
-## Demo 02 — Legacy modernization
+Turn a path-traversal requirement into explicit acceptance criteria, a bounded implementation, regression tests, a review guide, and documented residual limitations.
 
-Use a small public legacy project to demonstrate repository analysis, incremental refactoring, tests, and human review.
+- [Exercise and instructions](secure-file-access/README.md)
+- Verification: python -m unittest discover -s examples/secure-file-access/tests -v
 
-## Demo 03 — Security review
+## Planned
 
-Run a controlled review against intentionally vulnerable code and compare findings with deterministic security tooling.
+- **Demo 02 — Legacy modernization:** analyze and refactor a small public legacy component incrementally.
+- **Demo 03 — Security review:** compare agent findings against deterministic tooling on intentionally vulnerable code.
+- **Demo 04 — Documentation from code:** derive architecture documentation and validate it against the implementation.
+- **Demo 05 — Agent guardrails:** demonstrate least privilege, protected files, hostile instructions, and approval gates.
 
-## Demo 04 — Documentation from code
-
-Generate architecture and operational documentation from a public sample repository, then validate it against the implementation.
-
-## Demo 05 — Agent guardrails
-
-Demonstrate least privilege, protected files, approval gates, external-content distrust, and explicit verification.
-
-Each demo will include objectives, prerequisites, prompts/tasks, expected artifacts, verification steps, risks, and lessons learned.
+Planned demonstrations are not evidence of completed work. Their status is tracked in [the public evidence register](../docs/evidence.md).

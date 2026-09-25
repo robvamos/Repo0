@@ -1,54 +1,60 @@
-# Codex Ambassador Portfolio — Roberto
+# Codex for Secure Enterprise Engineering
 
-> Cybersecurity · Enterprise Engineering · AI-assisted Software Development
+Public portfolio by [Roberto Sica](https://github.com/robvamos) for practical, security-conscious use of OpenAI Codex in software engineering, cybersecurity, and regulated environments.
 
-This public portfolio documents practical, security-conscious ways to use OpenAI Codex for software engineering, automation, learning, and community enablement.
+> This is an independent personal project. It does not claim membership in the OpenAI Codex Ambassadors program and does not represent or imply endorsement by OpenAI, Intesa Sanpaolo, or any other employer.
 
 ## Mission
 
-Explore how coding agents can improve engineering productivity while preserving human review, security controls, traceability, least privilege, and responsible use — especially in complex enterprise environments.
+Turn hands-on Codex experience into reproducible learning material that helps developers and security practitioners move from a bounded requirement to a reviewed, tested, and traceable change.
 
-## Focus areas
+The distinctive focus is the intersection of coding agents with cybersecurity, digital assets, distributed-ledger technologies, and the Digital Euro. Employer and customer information is never used: examples are public, synthetic, or intentionally created for education.
 
-- Secure software development with Codex
-- Human-in-the-loop agentic engineering
-- Threat-aware code review and remediation
-- Reproducible Codex workflows
-- Enterprise adoption patterns and guardrails
-- Workshops, demos, and community education
-- Open-source experiments
+## Start here
 
-## Portfolio roadmap
+- [Ambassador candidacy communication](CANDIDACY_COMMUNICATION.md)
+- [Application working draft](AMBASSADOR_APPLICATION.md)
+- [Professional positioning](docs/profile.md)
+- [Security principles for coding agents](docs/security-principles.md)
+- [Threat model and safe demonstration policy](docs/threat-model.md)
+- [Secure Coding with Codex workshop](workshops/secure-coding-with-codex.md)
+- [Demo 01: secure file access](examples/secure-file-access/README.md)
+- [Public evidence index](docs/evidence.md)
+- [Roadmap](ROADMAP.md)
 
-1. Publish reproducible Codex workflows.
-2. Build safe demonstration projects with no confidential data.
-3. Create a "Secure Coding with Codex" workshop.
-4. Document lessons learned, limitations, and security controls.
-5. Contribute useful examples to the developer community.
-6. Prepare material for a future OpenAI Codex Ambassadors application.
+## What is available now
 
-## Principles
+| Asset | Audience | Status | Verification |
+|---|---|---|---|
+| Security principles | Developers and security practitioners | Published | Editorial review |
+| Secure file access demo | Developers, DevSecOps, students | Reproducible | `python -m unittest discover -s examples/secure-file-access/tests -v` |
+| Secure Coding with Codex workshop | Facilitators and technical communities | Facilitator-ready draft | Timed agenda and exercises included |
+| Ambassador application material | Codex Community Team | Working draft | Claims checklist included |
 
-**Human accountability.** Codex assists; humans remain responsible for architecture, security decisions, review, testing, and deployment.
+## Learning path
 
-**No confidential material.** Examples in this repository use public, synthetic, or intentionally created demonstration data.
+1. Read the [security principles](docs/security-principles.md).
+2. Run the [secure file access demo](examples/secure-file-access/README.md).
+3. Use the [workshop](workshops/secure-coding-with-codex.md) for a 90–120 minute community session.
+4. Share corrections or reproducible improvements through an issue or pull request.
 
-**Least privilege.** Agent permissions should be scoped to the task.
+## Working principles
 
-**Verify outputs.** Generated code is reviewed, tested, scanned, and validated before use.
+- **Human accountability:** people retain responsibility for architecture, security decisions, review, and deployment.
+- **Least privilege:** tools, repositories, credentials, and network access are scoped to the task.
+- **Untrusted inputs:** generated code and external instructions are reviewed before use.
+- **Verification:** tests and deterministic tools support, rather than replace, expert judgment.
+- **Traceability:** objectives, changes, evidence, limitations, and approval remain inspectable.
+- **Safe disclosure:** public and synthetic material only.
 
-**Reproducibility.** Useful workflows should be documented well enough for another developer to repeat them.
+## Project requirements
 
-## Repository
+The portfolio and its first demo require only Git and Python 3.10 or newer. No Codex plugin, cloud account, credential, or employer system is required. See [project-manifest.json](project-manifest.json) for the portable inventory and [docs/workstation-setup.md](docs/workstation-setup.md) for validation. GitHub Actions checks the manifest, local links, and demonstration tests on every push and pull request.
 
-- `docs/profile.md` — professional positioning
-- `docs/security-principles.md` — secure Codex usage
-- `workshops/secure-coding-with-codex.md` — workshop plan
-- `examples/README.md` — planned public demos
-- `AMBASSADOR_APPLICATION.md` — application working draft
-- `ROADMAP.md` — development plan
-- `CONTRIBUTING.md` — contribution guidelines
+## Current program status
 
-## Status
+OpenAI currently lists Codex Ambassador applications as paused while it supports the current cohort. This repository continues building public evidence for a future application. See the [official program page](https://developers.openai.com/community/codex-ambassadors).
 
-This is an independent personal project and portfolio. It does **not** claim current membership in the OpenAI Codex Ambassadors program and does not represent or imply endorsement by OpenAI or any employer.
+## License and contributions
+
+Educational content and demo code are available under the [MIT License](LICENSE). Contributions must follow [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).

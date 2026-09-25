@@ -1,41 +1,56 @@
 # Codex Ambassadors — Application Working Draft
 
-> Working material for a future application. This document does not claim Ambassador status.
+> Prepared for a future cohort. Applications are currently paused. This document does not claim Ambassador status or employer endorsement.
 
-## Positioning
+## One-line positioning
 
-**Codex for Cybersecurity & Enterprise Engineering**
+**I help developers and security practitioners use Codex in regulated environments through reproducible workflows that preserve human accountability, least privilege, traceability, and review.**
 
-I work in cybersecurity in a large regulated enterprise environment and have a strong interest in using coding agents to improve software engineering, automation, security, and technical learning.
+## Why I want to join
 
-I want to contribute to the Codex community by translating hands-on experimentation into practical, reproducible workflows that developers and security practitioners can safely adopt.
+I work in cybersecurity at the intersection of regulated financial services, digital assets, distributed-ledger technologies, and the Digital Euro. These domains make the benefits and risks of agentic engineering especially concrete: teams need speed and experimentation, but also strong boundaries, evidence, operational resilience, and accountable decisions.
 
-## What I can contribute
+I want to translate that perspective into practical learning material for the Codex community. My contribution would be personal and based exclusively on public or synthetic examples. It would not disclose or represent an employer's systems, positions, customers, architecture, or confidential information.
 
-- practical secure-coding demonstrations;
-- workshops for developers and cybersecurity practitioners;
-- examples of human-in-the-loop agentic engineering;
-- feedback from an enterprise-security perspective without disclosing internal information;
-- public open-source experiments;
-- documentation and reusable learning material;
-- local technical community activity in Northern Italy.
+## What I will contribute
 
-## Proposed community theme
+- hands-on workshops for developers, DevSecOps engineers, security professionals, and students;
+- small demonstrations that participants can reproduce without paid infrastructure;
+- guidance for reviewing agent-generated changes and controlling tool access;
+- examples of secure repository onboarding, planning, implementation, testing, and pull-request preparation;
+- candid feedback from security-conscious, multi-repository Codex use;
+- local community activity in Italy and reusable English-language material for the wider community.
 
-**Secure Coding with Codex — building faster without removing human accountability.**
+## Initial program
 
-The material would focus on realistic workflows: understanding an unfamiliar repository, planning changes, implementing code, testing, reviewing diffs, checking security implications, and preparing a high-quality pull request.
+### Monthly contribution 1: secure coding workflow
 
-## Why this portfolio exists
+Publish and teach **Secure Coding with Codex: From Prompt to Reviewed Pull Request**, using the repository's secure file access demonstration. Participants inspect a vulnerable boundary, define acceptance criteria, review a corrected implementation, run regression tests, and discuss residual risks.
 
-Rather than applying only with statements of interest, I want to maintain public evidence of useful work: demonstrations, workshop material, security guidance, experiments, and lessons learned.
+### Monthly contribution 2: agent guardrails
 
-## Evidence to add before application
+Create a reusable lab covering least privilege, protected files, secret handling, hostile repository instructions, dependency review, and explicit approval boundaries.
 
-- [ ] Complete at least three reproducible Codex demos
-- [ ] Publish the Secure Coding with Codex workshop
-- [ ] Record or document a complete end-to-end workflow
-- [ ] Contribute to relevant open-source projects
-- [ ] Collect community feedback
-- [ ] Add public talks/meetups as they happen
-- [ ] Update this draft against the next official application form
+### Monthly contribution 3: regulated adoption roundtable
+
+Facilitate a discussion on governance and human accountability for coding agents in regulated organizations. All examples remain generic and synthetic.
+
+## Evidence
+
+- Public portfolio: https://github.com/robvamos/codex-secure-enterprise-engineering
+- Reproducible demo: `examples/secure-file-access/`
+- Workshop: `workshops/secure-coding-with-codex.md`
+- Security principles: `docs/security-principles.md`
+- Evidence register: `docs/evidence.md`
+
+## Availability
+
+I can support the program's stated expectation of approximately 2–4 hours per week and at least one contribution per month.
+
+## Claims still requiring confirmation before submission
+
+- preferred public job title;
+- permission and preferred wording for naming Intesa Sanpaolo;
+- home city or region for in-person activity;
+- links to any previous public talks, workshops, teaching, or open-source contributions;
+- preferred public contact and professional profile.

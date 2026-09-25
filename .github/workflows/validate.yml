@@ -1,0 +1,21 @@
+name: Validate portfolio
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate manifest and links
+        run: python scripts/validate_portfolio.py
+      - name: Run secure coding demo tests
+        run: python -m unittest discover -s examples/secure-file-access/tests -v

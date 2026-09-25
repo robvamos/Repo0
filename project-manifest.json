@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "name": "Codex for Secure Enterprise Engineering",
+    "version": "0.2.0",
+    "status": "public-portfolio",
+    "repository": "https://github.com/robvamos/codex-secure-enterprise-engineering"
+  },
+  "capabilities": [
+    "codex-ambassador-portfolio",
+    "secure-coding-workshop",
+    "reproducible-security-demo"
+  ],
+  "requirements": {
+    "required": [
+      {"name": "Git", "minimum_version": "2.40", "verification": "git --version"},
+      {"name": "Python", "minimum_version": "3.10", "verification": "python --version"}
+    ],
+    "recommended": [],
+    "optional": [
+      {"name": "OpenAI Codex", "purpose": "Run the agent-assisted workshop workflow"}
+    ]
+  },
+  "configuration": {
+    "machine_specific_required": false,
+    "documentation": "docs/workstation-setup.md"
+  },
+  "validation": [
+    "python scripts/validate_portfolio.py",
+    "python -m unittest discover -s examples/secure-file-access/tests -v"
+  ]
+}
